@@ -56,7 +56,7 @@ iii. Save "config.py"
 
 === 4. EXECUTION
 
-Execute "python TwitterIDConverter.py -h" to show help
+Execute "python TwitterFollowerIDs.py -h" to show help
 
 Usage examples:
 
