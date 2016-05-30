@@ -63,14 +63,14 @@ Usage examples:
 i.  To scrape followers of a Twitter handle
 
     1.  By username (screen name)
-        python TwitterFollowerIDs.py -u username 
+        python TwitterFollowerIDs.py -u username (replace username accordingly)
         
     2.  By user ID
-        python TwitterFollowerIDs.py -i userID
+        python TwitterFollowerIDs.py -i userID (replace userID accordingly)
         
 ii. To scrape both followers and followings of a Twitter handle by username
 
-    python TwitterFollowerIDs.py -u username -a
+    python TwitterFollowerIDs.py -u username -a (replace username accordingly)
 
 iii.To scrape followers and followings from a target list file
   
