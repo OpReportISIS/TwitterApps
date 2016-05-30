@@ -42,7 +42,7 @@ def elapse_time(sdatetime):
 
 
 #-----------------------------------------------------------------------
-# Scrape followers or following IDs
+# The main script that controls the flow
 #-----------------------------------------------------------------------
 
 def main():
