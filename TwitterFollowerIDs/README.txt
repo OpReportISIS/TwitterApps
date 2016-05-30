@@ -63,14 +63,14 @@ Usage examples:
 i.  To scrape followers of a Twitter handle
 
     1.  By username (screen name)
-        python TwitterIDConverter.py -u username 
+        python TwitterFollowerIDs.py -u username 
         
     2.  By user ID
-        python TwitterIDConverter.py -i userID
+        python TwitterFollowerIDs.py -i userID
         
 ii. To scrape both followers and followings of a Twitter handle by username
 
-    python TwitterIDConverter.py -u username -a
+    python TwitterFollowerIDs.py -u username -a
 
 iii.To scrape followers and followings from a target list file
   
@@ -79,7 +79,7 @@ iii.To scrape followers and followings from a target list file
     https://twitter.com/xxxxxxxxxx
     https://twitter.com/intent/user?user_id=xxxxxxxxxx
     
-    python TwitterIDConverter.py -f filename.txt -a 
+    python TwitterFollowerIDs.py -f filename.txt -a 
 
     (replace filename.txt with your input file's name)
   
