@@ -53,12 +53,12 @@ def remove_duplicates(url, newlist):
 #----------------------------------------
 
 def main():
-    global iTotal		# Count of total handles
-    global iAlive 		# Count of alive handles
+    global iTotal       # Count of total handles
+    global iAlive       # Count of alive handles
     global iDuplicated  # Count of duplicated handles
-    iSuspended = 0		# Count of suspended handles
+    iSuspended = 0      # Count of suspended handles
     iDeleted = 0        # Count of deleted handles
-    iInvalid = 0		# Count of invalid handles
+    iInvalid = 0        # Count of invalid handles
     newlist = []        # A list that keep track of duplicated URLs
 
     input_file = None
