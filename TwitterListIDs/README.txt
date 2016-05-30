@@ -6,7 +6,7 @@ TwitterListIDs (version 1.0)
 A Python script that scrapes members' IDs from a Twitter List.
 
 The format of a Twitter List is:
-https://twitter.com/<owner\'s name>/lists/<list\'s name>
+https://twitter.com/<owner name>/lists/<list name>
 
 Output format:
 https://twitter.com/intent/user?user_id=xxxxxxxxxx
