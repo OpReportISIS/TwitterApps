@@ -6,23 +6,25 @@ A Python script that mass converts Twitter username links to ID links.
 
 Accepted input formats (One URL per line):
 
-	http://twitter.com/xxxxxxxxx
-	https://twitter.com/xxxxxxxxx
-	http://www.twitter.com/xxxxxxxxx
-	https://www.twitter.com/xxxxxxxxx
+http://twitter.com/xxxxxxxxx
+https://twitter.com/xxxxxxxxx
+http://www.twitter.com/xxxxxxxxx
+https://www.twitter.com/xxxxxxxxx
 
 Output format:
 
-	https://twitter.com/intent/user?user_id=xxxxxxxxxx
+https://twitter.com/intent/user?user_id=xxxxxxxxxx
+    
 
 === 2. REQUIREMENTS
 
-i. Install Python 2.7.
+i.  Install Python 2.7.
 
 ii. Install Tweepy (Twitter API library for Python) in your system.
 
-	Download and installation intructions:
-	https://github.com/tweepy/tweepy
+Download and installation intructions:
+https://github.com/tweepy/tweepy
+
 
 === 3. CONFIGURATION
 
@@ -32,24 +34,26 @@ i.  Create a new Twitter Application at https://apps.twitter.com/
 
 ii. Click the "Keys and Access Tokens" tab.
 
-    Under the "Your Access Token" section, click "Create my access token" 	
+Under the "Your Access Token" section, click "Create my access token" 	
 
-    Copy the settings into your TwitterIDConverter.py
+Copy the settings into your TwitterIDConverter.py
 
-	CONSUMER_KEY
-	CONSUMER_SECRET
-	ACCESS_TOKEN
-	ACCESS_TOKEN_SECRET
+CONSUMER_KEY
+CONSUMER_SECRET
+ACCESS_TOKEN
+ACCESS_TOKEN_SECRET
 
 iii. Save "TwitterIDConverter.py"
+
 
 === 4. EXECUTION
 
 Execute "python TwitterIDConverter.py -h" to show help
 
-	Usage Example: python TwitterIDConverter.py -f filename.txt
+Usage Example: python TwitterIDConverter.py -f filename.txt
 
-	(replace filename.txt with the name of your input file)
+(replace filename.txt with the name of your input file)
+
 
 === 5. LICENSE
 
