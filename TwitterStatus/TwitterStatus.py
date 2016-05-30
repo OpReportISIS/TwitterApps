@@ -140,7 +140,7 @@ def main():
             sys.exit(1)
 
         except:
-            print "Unexpected error: " + url
+            print "Unexpected error: %s" + % url
             with open("log_errorlog_.txt", "a") as log:
                 log.write(url + "\n")
                 
