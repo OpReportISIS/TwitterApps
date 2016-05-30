@@ -3,15 +3,15 @@ TwitterListIDs (version 1.0)
 
 === 1. DESCRIPTION
 
-A Python script that scrapes members' IDs from a Twitter List.
+A Python script that scrapes members' IDs from a Twitter list.
 
-The format of a Twitter List is:
-https://twitter.com/<owner name>/lists/<list name>
+The format of a Twitter list is:
+https://twitter.com/<owner screen name>/lists/<list slug>
 
 Output format:
 https://twitter.com/intent/user?user_id=xxxxxxxxxx
 
-The output files are named by the Twitter List owner's screen name and list's name
+The output files are named by the list owner's screen name and list's slug
 e.g.
 log_OpReportISIS_list1.txt
 
@@ -53,7 +53,9 @@ Execute "python TwitterListIDs.py -h" to show help
 
 Usage examples:
 
-python TwitterListIDs.py -f filename.txt -a 
+python TwitterListIDs.py -u username -s listslug
+
+(replace username and listslug accordingly)
 
 
 === 5. LICENSE
