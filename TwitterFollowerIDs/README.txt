@@ -16,7 +16,7 @@ ii. Target list file
 Output format:
 https://twitter.com/intent/user?user_id=xxxxxxxxxx
 
-The output files are named by the target handle's username and id
+The output files are named by the target handle's username and ID
 e.g.
 
 log_OpReportISIS_4840928547_followers.txt
