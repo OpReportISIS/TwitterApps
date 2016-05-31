@@ -23,7 +23,7 @@ def load_config():
 
     except:
         if not input_file:
-            print "Execute: python TwitterIDConverter.py -f <filename.txt> (replace it with your input filena$
+            print "Execute: python TwitterIDConverter.py -f <filename.txt> (replace it with your input filename)"
         else:
             print "Error: Can't open input file %s " % input_file
         sys.exit(1)
