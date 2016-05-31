@@ -21,7 +21,7 @@ def load_config():
     try:
         execfile("config.py", config)
 
-   except:
+    except:
         if not input_file:
             print "Execute: python TwitterIDConverter.py -f <filename.txt> (replace it with your input filena$
         else:
