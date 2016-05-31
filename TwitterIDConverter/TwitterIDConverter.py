@@ -21,8 +21,11 @@ def load_config():
     try:
         execfile("config.py", config)
 
-    except (OSError, IOError) as e:
-        print "\tError: %s " % str(e)
+   except:
+        if not input_file:
+            print "Execute: python TwitterIDConverter.py -f <filename.txt> (replace it with your input filena$
+        else:
+            print "Error: Can't open input file %s " % input_file
         sys.exit(1)
 
     return config
