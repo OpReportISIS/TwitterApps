@@ -21,8 +21,8 @@ def load_config():
     try:
         execfile("config.py", config)
 
-    except (OSError, IOError) as e:
-        print "Error: %s " % str(e)
+    except:
+        print "Please download and configure config.py"
         sys.exit(1)
 
     return config
