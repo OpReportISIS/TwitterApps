@@ -63,7 +63,7 @@ def main():
 
     input_file = None
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--input_file', dest='input_file', default='list.txt', help='Enter the name of the input file')
+    parser.add_argument('-f', '--input_file', help='Enter the name of the input file')
 
     args = parser.parse_args()
 
