@@ -35,7 +35,7 @@ i.  Create a new Twitter Application at https://apps.twitter.com/
 
 ii. Click the "Keys and Access Tokens" tab.
 
-Under the "Your Access Token" section, click "Create my access token" 	
+Under the "Your Access Token" section, click "Create my access token".
 
 Copy the settings into your config.py
 
@@ -44,12 +44,12 @@ CONSUMER_SECRET
 ACCESS_TOKEN
 ACCESS_TOKEN_SECRET
 
-iii. Save "config.py"
+iii. Save config.py.
 
 
 === 4. EXECUTION
 
-Execute "python TwitterIDConverter.py -h" to show help
+Execute "python TwitterIDConverter.py -h" to show help.
 
 Usage Example: python TwitterIDConverter.py -f filename.txt
 
