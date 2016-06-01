@@ -37,14 +37,14 @@ ii. Click the "Keys and Access Tokens" tab.
 
 Under the "Your Access Token" section, click "Create my access token" 	
 
-Copy the settings into your TwitterIDConverter.py
+Copy the settings into your config.py
 
 CONSUMER_KEY
 CONSUMER_SECRET
 ACCESS_TOKEN
 ACCESS_TOKEN_SECRET
 
-iii. Save "TwitterIDConverter.py"
+iii. Save "config.py"
 
 
 === 4. EXECUTION
