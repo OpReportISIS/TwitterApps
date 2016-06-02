@@ -96,7 +96,7 @@ def scrape_links(api, screen_name, user_id, is_all, is_excl_rts, max_links, max_
         # Iterates through each tweet
         for status in page:
 
-            # If max days was set, and if the tweet was created earlier than the max days settings, skip that tweet
+            # If max days was set, and if the tweet was created earlier than the max days setting, skip that tweet
             if (max_days > 0) and ((time_now - status.created_at).days > max_days):
                 continue
 
