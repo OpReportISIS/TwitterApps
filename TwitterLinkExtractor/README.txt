@@ -104,7 +104,7 @@ i. From a target user
 
    NOTE: 
    If both "-d" and "-n" are not set, the script will return no more
-   than the max. number of links set in Step#3: default_max_links
+   than the maximum number of links set in 3.i: default_max_links
 	
 ii. From an input file
     Other parameters stated in 4.i. are also supported (except -u)
