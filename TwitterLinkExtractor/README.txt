@@ -84,7 +84,7 @@ i. From a target user
    - To extract only Twitter links:
      python TwitterLinkExtractor.py -u <username>
 
-   - To extract all types of links (not just Twitter):
+   - To extract all types of links (not limited to Twitter):
      python TwitterLinkExtractor.py -u <username> -a
 
    - By default, it extracts links from all retweets.
