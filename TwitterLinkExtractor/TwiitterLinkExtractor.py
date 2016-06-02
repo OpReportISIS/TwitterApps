@@ -296,6 +296,13 @@ def main():
                         print "\nError: Invalid URL %s " % url
                         with open("log_error.txt", "a") as log:
                             log.write("%s\n" % url)
+                            
+                # Tweepy error
+                except tweepy.TweepError as e:
+                    if url:
+                        print "\nTweepError: %s" % str(e.reason)
+                        with open("log_error.txt", "a") as log:
+                            log.write("%s\n" % url)            
 
         # Prints the elapse time
         elapse_time(sdatetime)
