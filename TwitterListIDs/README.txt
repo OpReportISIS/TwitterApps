@@ -11,7 +11,8 @@ https://twitter.com/<owner screen name>/lists/<list slug>
 Output format:
 https://twitter.com/intent/user?user_id=xxxxxxxxxx
 
-The output files are named by the list owner's screen name and list's slug
+The output files are named by the list owner's screen name and list's slug.
+
 e.g.
 log_OpReportISIS_mylist.txt
 
@@ -35,7 +36,7 @@ i.  Create a new Twitter Application at https://apps.twitter.com/
 
 ii. Click the "Keys and Access Tokens" tab.
 
-    Under the "Your Access Token" section, click "Create my access token" 
+    Under the "Your Access Token" section, click "Create my access token".
 
     Copy the settings into your config.py
 
@@ -44,12 +45,12 @@ ii. Click the "Keys and Access Tokens" tab.
     ACCESS_TOKEN
     ACCESS_TOKEN_SECRET
     
-iii. Save "config.py"
+iii. Save config.py.
 
 
 === 4. EXECUTION
 
-Execute "python TwitterListIDs.py -h" to show help
+Execute "python TwitterListIDs.py -h" to show help.
 
 Usage examples:
 
