@@ -13,7 +13,7 @@ https://twitter.com/intent/user?user_id=xxxxxxxxxx
 
 The output files are named by the list owner's screen name and list's slug
 e.g.
-log_OpReportISIS_list1.txt
+log_OpReportISIS_mylist.txt
 
 
 === 2. REQUIREMENTS
