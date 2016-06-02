@@ -36,6 +36,7 @@ NOTE:
 This setting will be ignored if user set either the -n (max links) or the -d (max days) command line argument.
 
 https://dev.twitter.com/rest/reference/get/statuses/user_timeline
+
 Twitter API returns up to 3,200 of a user's most recent Tweets. That means it could return many thousands of links if no limit is set. This setting helps to avoid unnecessary long processing time.
 
 
