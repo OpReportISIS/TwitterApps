@@ -28,7 +28,7 @@ https://github.com/tweepy/tweepy
 
 === 3. CONFIGURATION
 
-i.  Set the the default maximum number of links to be scraped per target in: 
+i.  Set the the default maximum number of links to be scraped per target in TwitterLinkExtractor.py: 
 
 e.g. default_max_links = 1000
 
