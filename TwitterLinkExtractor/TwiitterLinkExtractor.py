@@ -9,7 +9,7 @@ import argparse
 #-----------------------------------------------------------------------
 
 # Default max. number of links to be scraped per target
-# This setting will be ignored if user set the -n (max links) and/or -d (max days) in command line argument(s)
+# This setting will be ignored if user set the -n (max links) or -d (max days) in command line argument(s)
 #
 # https://dev.twitter.com/rest/reference/get/statuses/user_timeline
 # Twitter API returns up to 3,200 of a user\'s most recent Tweets.
