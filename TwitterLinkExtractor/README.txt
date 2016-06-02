@@ -107,7 +107,7 @@ i. From a target user
    than the max. number of links set in Step#3: default_max_links
 	
 ii. From an input file
-    (All other parameters above is also supported)
+    Other parameters stated in 4.i. are also supported (except -u)
     
     python TwitterLinkExtractor.py -f <filename.txt>
 
