@@ -6,7 +6,7 @@ A Python script that scrapes links from the tweets of Twitter account(s).
 
 Accepted input formats:
 
-command line: username
+Command line: username
 
 or,
 input file (one URL per line):
@@ -30,7 +30,7 @@ https://github.com/tweepy/tweepy
 
 i.  Set the the default maximum number of links to be scraped per target in: 
 
-default_max_links = 1000
+e.g. default_max_links = 1000
 
 NOTE:
 This setting will be ignored if user set either the -n (max links) or the -d (max days) command line argument.
