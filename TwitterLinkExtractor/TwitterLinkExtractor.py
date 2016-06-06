@@ -30,7 +30,6 @@ max_pages = 16
 # Import the Tweepy module
 try:
     import tweepy
-
 except ImportError:
     print "Please install Tweepy"
     sys.exit(1)
@@ -206,7 +205,7 @@ def main():
         if (not screen_name) and (not input_file):
             print "\nYou must enter -u or -f in the command:"
             print "\npython TwitterLinkExtractor.py -u <username> or,\npython TwitterLinkExtractor.py -f <filename>\n"
-            exit(1)
+            exit(0)
 
         else:
             # Print progress status
