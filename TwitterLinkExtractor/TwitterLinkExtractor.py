@@ -205,7 +205,7 @@ def main():
         # If user didn't enter the screen name nor the input file, print message and exit
         if (not screen_name) and (not input_file):
             print "\nYou must enter -u or -f in the command:"
-            print "\npython TwitterLinkExtractor -u <username> or,\npython TwitterLinkExtractor -f <filename>\n"
+            print "\npython TwitterLinkExtractor.py -u <username> or,\npython TwitterLinkExtractor.py -f <filename>\n"
             exit(1)
 
         else:
